@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- goofle font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- font awsome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Blog</title>
+</head>
+
+<body>
+
+    <!-- header starts here -->
+    <header id="blog-header">
+        <figure>
+            <i class="fab fa-autoprefixer logo"></i>
+        </figure>        
+        <i id="menu" class="fa-solid fa-bars text-color fa-4x menu-bar"></i>
+        <nav id="nav-bar" class="hidden">
+            <ul>
+                <li><a href="#" class="nav__link">Home</a></li>
+                <li><a href="#blog-aboutme" class="nav__link">About</a></li>
+                <li><a href="#Blog-archives" class="nav__link">Archives</a></li>
+                <li><a href="#blogpost-section" class="nav__link">Blog Posts</a></li>
+                <li><a href="#contact-section" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header ends here -->
+    <!-- main starts here -->
+    <main>
+
+        <!-- blog-banner section starts here -->
+        <section id="blog-banner" class="banner">
+            <article>
+                <h1 class="banner__header">Web Developement</h1>
+                <p class="banner__description text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quae nam dolorem aspernatur, accusamus assumenda vero reiciendis
+                    repellat, deleniti nulla ipsa, animi rerum quidem! Architecto,
+                    laboriosam deleniti! Vero odit tempora possimus?</p>
+            </article>
+            <aside>
+                <img src="./images/banner1.jpg" alt="blog-banner" class="banner__img">
+            </aside>
+        </section>
+        <!-- blog-banner section ends here -->
+
+        <!-- About us section starts here -->
+        <section id="blog-aboutme" class="section-center">
+            <h2 class="center-heading text-color header-margin">About Me</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3 class="card__heading">Education</h3>
+                    <p class="card__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dignissimos obcaecati, quia aspernatur ipsa a asperiores quasi quas.
+                        Excepturi optio enim incidunt aliquid. Quo corrupti ullam optio
+                        repellendus quasi sed quam.</p>
+                    <button class="btn card__button">Read more</button>
+                </div>
+                <div class="card">
+                    <h3 class="card__heading">Education</h3>
+                    <p class="card__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dignissimos obcaecati, quia aspernatur ipsa a asperiores quasi quas.
+                        Excepturi optio enim incidunt aliquid. Quo corrupti ullam optio
+                        repellendus quasi sed quam.</p>
+                    <button class="btn card__button">Read more</button>
+                </div>
+                <div class="card">
+                    <h3 class="card__heading">Education</h3>
+                    <p class="card__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dignissimos obcaecati, quia aspernatur ipsa a asperiores quasi quas.
+                        Excepturi optio enim incidunt aliquid. Quo corrupti ullam optio
+                        repellendus quasi sed quam.</p>
+                    <button class="btn card__button">Read more</button>
+                </div>
+            </div>
+        </section>
+        <!-- About us section ends here -->
+        <!-- Archives section starts here -->
+        <section id="Blog-archives" class="section-center">
+            <h2 class="center-heading">Archives</h2>
+            <div class="archives-container">
+                <ul class="archives-lists">
+                    <li class="archives-list"><img src="./images/img1.jpg" alt="image1" class="archives__img"></li>
+                    <li class="archives-list"><img src="./images/img4.jpg" alt="image4" class="archives__img"></li>
+                    <li class="archives-list"><img src="./images/img3.jpg" alt="image3" class="archives__img"></li>
+                    <li class="archives-list"><img src="./images/img4.jpg" alt="image4" class="archives__img"></li>
+                </ul>
+            </div>
+        </section>
+        <!-- Archives section ends here -->
+
+        <!-- Blog-post section starts here -->
+        <section id="blogpost-section" class="section-center">
+            <h2 class="center-heading">Blog Posts</h2>
+            <div class="blogposts">
+                <div class="blogpost">
+                    <aside class="blogpost-aside"><img src="./images/img1.jpg" alt="img2" class="blogpost__img"></aside>
+                    <article class="blogpost-article">
+                        <h2 class="blogpost__heading">Blog Post1</h2>
+                        <h3 class="blogpost__subheading">Sub Heading</h3>
+                        <p class="blogpost__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Corrupti ipsum minima itaque voluptatum dicta impedit delectus
+                            soluta adipisci consequuntur voluptatem.
+                        </p>
+                        <button class="btn blogpost__btn">Read more</button>
+                    </article>
+                </div>
+                <div class="blogpost">
+                    <aside class="blogpost-aside"><img src="./images/img1.jpg" alt="img2" class="blogpost__img"></aside>
+                    <article class="blogpost-article">
+                        <h2 class="blogpost__heading">Blog Post2</h2>
+                        <h3 class="blogpost__subheading">Sub Heading</h3>
+                        <p class="blogpost__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Corrupti ipsum minima itaque voluptatum dicta impedit delectus
+                            soluta adipisci consequuntur voluptatem.
+                        </p>
+                        <button class="btn blogpost__btn">Read more</button>
+                    </article>
+                </div>
+                <div class="blogpost">
+                    <aside class="blogpost-aside"><img src="./images/img1.jpg" alt="img2" class="blogpost__img"></aside>
+                    <article class="blogpost-article">
+                        <h2 class="blogpost__heading">Blog Post3</h2>
+                        <h3 class="blogpost__subheading">Sub Heading</h3>
+                        <p class="blogpost__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Corrupti ipsum minima itaque voluptatum dicta impedit delectus
+                            soluta adipisci consequuntur voluptatem.
+                        </p>
+                        <button class="btn blogpost__btn">Read more</button>
+                    </article>
+                </div>
+            </div>
+
+        </section>
+        <!-- Blog-post section ends here -->
+
+        <!-- Contact section starts here -->
+        <section id="contact-section" class="section-center">
+            <h1 class="center-heading text-color">Contact Us</h1>
+            <form>
+                <div class="form-control">
+                    <label for="name">Name </label>
+                    <input type="text" id="name" autocomplete="name" required />
+                </div>
+                <div class="form-control">
+                    <label for="email">Email </label>
+                    <input type="email" id="email" autocomplete="email" required />
+                </div>
+                <div class="form-control">
+                    <label for="message">Message </label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <div class="form-control form-btn-field">
+                    <button class="btn contact__btn">Submit</button>
+                </div>
+            </form>
+        </section>      
+
+        <!-- Contact section ends here -->
+
+        <!-- Footer section starts here -->
+        <footer>
+        <section id="footer-section">
+            
+            <p class="copyright__text">Copyright &copy; by Sowjanya. All rights reserved </p>
+           
+            <nav class="footer__nav">
+                <a href="#blog-banner" class="footer__link"><i class="fa fa-home footer-nav__icon"></i></a>          
+                <a href="https://www.youtube.com/watch?v=lXYo52yFLDk&list=PLgH5QX0i9K3q6qCMHo8x5OzW9g2qDFfct&index=4" target="_blank" class="footer__link"><i class="fa-brands fa-youtube footer-nav__icon"></i></a>
+                <a href="https://www.facebook.com/?locale=da_DK" target="_blank" class="footer__link"><i class="fa-brands fa-facebook footer-nav__icon"></i></a> 
+                <a href="https://github.com/" target="_blank" class="footer__link"><i class="fa-brands fa-github footer-nav__icon"></i></a>
+                <a href="https://dk.linkedin.com/" target="_blank" class="footer__link"><i class="fa-brands fa-linkedin footer-nav__icon"></i></a>            
+            </nav>
+
+        </section>
+    </footer>
+        <!-- Footer section ends here -->
+
+    </main>
+    <!-- main ends here -->
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
